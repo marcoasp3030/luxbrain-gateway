@@ -1,5 +1,17 @@
 # Registro de Trabalho
 
+## [2026-10-07 15:50] — Push do gateway para o GitHub
+- **Autor:** Grok 4.7
+- **Objetivo:** Enviar o commit local para o repositório luxbrain-gateway criado pelo usuário.
+- **Arquivos alterados:**
+  - `docs/worklog.md` — modificado — registro do push concluído
+- **Resumo das mudanças:** O commit `752fe1d` foi enviado para `origin/main`. O repositório remoto estava vazio e aceitou a branch sem conflito.
+- **Decisões e justificativas:** Push por HTTPS para `https://github.com/marcoasp3030/luxbrain-gateway.git`, usando a credencial já disponível no Git. Nenhum `.env` real foi incluído.
+- **Comandos executados:** `git push -u origin main` → OK. Conferência da API: commit `752fe1d` em `main`.
+- **Erros e resoluções:** nenhum nesta etapa. O 403 anterior era só na criação do repositório.
+- **Pendências / TODO:** nenhum
+- **Próximos passos:** seguir o roteiro do README para subir o gateway na VPS
+
 ## [2026-10-07 15:44] — Publicar o gateway no GitHub
 - **Autor:** Grok 4.7
 - **Objetivo:** Subir os arquivos do By Koji Gateway para o GitHub.
